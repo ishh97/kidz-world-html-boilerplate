@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+   
+}
 .nav {
     display: flex;
     flex-direction: row;
@@ -12,9 +16,13 @@
 h1 {
     font-size: 55px;
 }
-h3 {
-    color: black;
+.ca{
+    position: relative;
+    bottom: 7px;
 }
+/* h3 {
+    color: black;
+} */
 .header{
     padding: 6%;
     background-image: url("assets/kw-background.png");
@@ -23,6 +31,10 @@ h3 {
     height: 100%;
     color: white;
     
+}
+.btn{
+    background-color: #6196FF ;
+    border: 0px;
 }
 .content {
     display: flex;
@@ -37,12 +49,45 @@ h3 {
 }
 h5 {
     font-size: 20px;
+    position: relative;
+    bottom: 30px;
 }
-.cart {
-    background-color:#6196FF ;
-    color: white;
-}
+
 .footer {
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.kri{
+    border-radius: 100%;
+}
+.add{
+    position: relative;
+    bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.bookicon{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: 20px;
+}
+.author{
+    color: lightslategray;
+}
+.sentence {
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+.br {
+    margin-left: 5% ;
+    padding: 1%;
 }
