@@ -1,5 +1,7 @@
 * {
     padding: 0;
+    margin:0;
+    
    
 }
 .nav {
@@ -9,6 +11,7 @@
     padding-left: 5%;
     padding-right: 5%;
     align-items: center;
+    margin: 5px;
 }
 .logo {
     height: 25px;
@@ -17,6 +20,7 @@ h1 {
     font-size: 55px;
 }
 .ca{
+    font-size: 18px;
     position: relative;
     bottom: 7px;
 }
@@ -35,11 +39,23 @@ h1 {
 .btn{
     background-color: #6196FF ;
     border: 0px;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 10px;
 }
 .content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* margin: 50px; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h3 {
+    /* margin: 50px; */
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 25px;
 }
 .book {
     height: 250px;
@@ -49,6 +65,7 @@ h1 {
 }
 h5 {
     font-size: 20px;
+    margin-top: 40px;
     position: relative;
     bottom: 30px;
 }
@@ -58,9 +75,12 @@ h5 {
     color: white;
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 .kri{
     border-radius: 100%;
+    /* margin-left: 50px;
+    margin-top: 5px; */
 }
 .add{
     position: relative;
@@ -78,9 +98,12 @@ h5 {
 }
 .name{
     font-size: 20px;
+    margin-left: 4px;
+    margin-top:1px ;
 }
 .author{
     color: lightslategray;
+    margin-top:16px;
 }
 .sentence {
     text-align: right;
@@ -90,6 +113,16 @@ h5 {
 .br {
     margin-left: 5% ;
     padding: 1%;
+}
+.brot {
+    font-weight: 800;
+    font-size: 25px;
+}
+.krishti {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 @media (max-width:600px) {
     .content {
@@ -107,7 +140,16 @@ h5 {
     }
     .book {
         padding: 5%;
-        width: 200px;
+        width: 250px;
+        height: 300px;
         align-self: center;
+    }
+    h3 {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .brot {
+        text-align: center;
+        font-size: 20px;
     }
 }
